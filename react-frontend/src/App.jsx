@@ -37,13 +37,13 @@ function App() {
       children: [
         { path: "/", element: <HomePage /> },
         {
-          path: "/events",
+          path: "events",
           element: <EventLayout />,
           children: [
-            { path: "/events", element: <EventsPage /> },
-            { path: "/events/:id", element: <EventDetailPage /> },
-            { path: "/events/new", element: <NewEventPage /> },
-            { path: "/events/id/edit", element: <EditEventPage /> },
+            { index: true, element: <EventsPage /> },
+            { path: ":id", element: <EventDetailPage /> },
+            { path: "new", element: <NewEventPage /> },
+            { path: ":id/edit", element: <EditEventPage /> },
           ],
         },
       ],
