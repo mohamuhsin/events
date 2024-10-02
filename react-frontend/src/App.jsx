@@ -22,7 +22,7 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home";
-import EventsPage from "./pages/EventsPage";
+import EventsPage from "./pages/Events";
 import EventDetailPage from "./pages/EventDetail";
 import NewEventPage from "./pages/NewEvent";
 import EditEventPage from "./pages/EditEvent";
@@ -45,7 +45,6 @@ function App() {
               element: <EventsPage />,
               loader: async () => {
                 const response = await fetch("http://localhost:8080/events");
-
                 if (!response.ok) {
                   //...
                 } else {
