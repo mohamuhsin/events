@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { useNavigate, Form } from "react-router-dom";
+import { useNavigate, Form, useNavigation } from "react-router-dom";
 
 import classes from "./EventForm.module.css";
 
 function EventForm({ method, event }) {
   const navigate = useNavigate();
+  const navigation = useNavigation();
+  const isSubmiting = navigation.state === "submitting";
   function cancelHandler() {
     navigate("..");
   }
@@ -53,10 +55,12 @@ function EventForm({ method, event }) {
         />
       </p>
       <div className={classes.actions}>
-        <button type="button" onClick={cancelHandler}>
+        <button type="button" onClick={cancelHandler} disabled={isSubmiting}>
           Cancel
         </button>
-        <button>Save</button>
+        <button disabled={isSubmiting}>
+          {isSubmiting ? "Submiting..." : "Save"}
+        </button>
       </div>
     </Form>
   );
