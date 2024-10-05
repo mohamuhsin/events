@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"new event","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","date":"2024-10-16","description":"this is a new event","id":"51e599b1-05b6-469b-ae64-325a4e980213"},{"title":"A new Event","image":"https://www.google.com/imgres?q=events&imgurl=https%3A%2F%2Fwww.meydanfz.ae%2Fwp-content%2Fuploads%2F2021%2F10%2FEvents.png&imgrefurl=https%3A%2F%2Fwww.meydanfz.ae%2Fevent-management-license-dubai-costs-and-rules%2F&docid=TLdfiCITFRklNM&tbnid=bnnGQ9vDXncsjM&vet=12ahUKEwiZ8PGTk_WIAxWwhv0HHfliNCkQM3oECFUQAA..i&w=1920&h=1080&hcb=2&ved=2ahUKEwiZ8PGTk_WIAxWwhv0HHfliNCkQM3oECFUQAA","date":"2024-10-09","description":"a new event description","id":"b451a4b1-4b7a-40e8-80cf-13360631acfa"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
