@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 //import { useParams } from "react-router-dom";
-import { json, useRouteLoaderData } from "react-router-dom";
+import { json, redirect, useRouteLoaderData } from "react-router-dom";
 import EventItem from "../components/EventItem";
 
 export default function EventDetailPage() {
@@ -20,4 +20,17 @@ export async function loader({ request, params }) {
     } else {
         return response;
     }
+}
+
+export async function action({ params, request }) {
+    //code for deleting an event
+    const id = params.eventId;
+    const response = await fetch("http://localhost:8080/events" + id, {
+        method: request.method,
+    });
+
+    if (!response.ok) {
+        throw json({ message: "could not delete event" }, { status: 500 });
+    }
+    return redirect("/event");
 }
