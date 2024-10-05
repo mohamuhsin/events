@@ -29,7 +29,10 @@ import EditEventPage from "./pages/EditEvent";
 import RootLayout from "./pages/Root";
 import EventLayout from "./pages/EventLayout";
 import ErrorPage from "./pages/Error";
-import { loader as eventDetailLoader } from "./pages/EventDetail";
+import {
+  loader as eventDetailLoader,
+  action as deleteEvent,
+} from "./pages/EventDetail";
 import { action as newEventAction } from "./pages/NewEvent";
 
 function App() {
@@ -57,6 +60,7 @@ function App() {
                 {
                   index: true,
                   element: <EventDetailPage />,
+                  action: deleteEvent,
                 },
                 { path: "edit", element: <EditEventPage /> },
               ],
