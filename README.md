@@ -1,6 +1,6 @@
 # Events (React Router Project)
 
-## Things we learnt in this project:
+## Concepts We Learned In This Project:
 
 1. Basics of react router.
 2. Using data from a loader in the route component.
