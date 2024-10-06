@@ -13,3 +13,4 @@
 9. Error handling with custom Errors.
 10. Extracting error data and throwing responses.
 11. The ```json()``` utility function.
+12. Dynamic routes and loaders().
