@@ -8,3 +8,4 @@
 4. Where should loader code be stored.
 5. when are loader functions executed.
 6. how to use useNavigation Hook.
+7. Returning Responses in loaders
