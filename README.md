@@ -6,4 +6,5 @@
 2. Using data from a loader in the route component
 3. More loader data usage.
 4. Where should loader code be stored.
-5. when are loader functions executed
+5. when are loader functions executed.
+6. how to use useNavigation Hook.
