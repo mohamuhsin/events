@@ -9,3 +9,4 @@
 5. when are loader functions executed.
 6. how to use useNavigation Hook.
 7. Returning Responses in loaders
+8. what kind of code goes in loaders.
