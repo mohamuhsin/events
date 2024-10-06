@@ -10,3 +10,4 @@
 6. how to use useNavigation Hook.
 7. Returning Responses in loaders
 8. what kind of code goes in loaders.
+9. Error handling with custom Errors.
