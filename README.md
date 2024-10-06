@@ -20,5 +20,7 @@
 16. Updating the UI state based on submission status.
 17. Updating userInput & Outputting validation.
 18. Reusing actions via request methods.
-19. Behind the scenes working with useFetch().
-20. Deferring Data Fetching with defer().
+19. Controlling Which Data Should Be Deferred.
+20. Summarised everything.
+21. Behind the scenes working with useFetch().
+22. Deferring Data Fetching with defer().
