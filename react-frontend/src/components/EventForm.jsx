@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import {
@@ -103,8 +104,8 @@ export async function action({ request, params }) {
     url = `http://localhost:8080/events/${eventId}`;
   }
 
-  const response = await fetch("http://localhost:8080/events", {
-    method: "POST",
+  const response = await fetch(url, {
+    method: method,
     headers: {
       "Content-Type": "application/json",
     },
