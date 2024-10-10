@@ -24,4 +24,4 @@
 20. Summarised everything.
 21. Behind the scenes working with useFetch().
 22. Deferring Data Fetching with defer().
-23. Summarized everything..
+23. Summarized everything.
