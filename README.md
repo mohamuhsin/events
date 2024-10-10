@@ -22,5 +22,5 @@
 18. Reusing actions via request methods.
 19. Controlling Which Data Should Be Deferred.
 20. Behind the scenes working with useFetch().
-22. Deferring Data Fetching with defer().
+21. Deferring Data Fetching with defer().
 23. Summarized everything.
