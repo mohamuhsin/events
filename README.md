@@ -23,4 +23,4 @@
 19. Controlling Which Data Should Be Deferred.
 20. Behind the scenes working with useFetch().
 21. Deferring Data Fetching with defer().
-23. Summarized everything.
+22. Summarized everything.
