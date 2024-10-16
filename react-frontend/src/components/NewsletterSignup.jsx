@@ -13,10 +13,9 @@ function NewsletterSignup() {
   }, [state, data]);
 
   return (
-    <fetcher.Form method="post" className={classes.newsletter}>
+    <fetcher.Form method="post"  action="/newsletter" className={classes.newsletter}>
       <input
         type="email"
-        action="/newsletter"
         placeholder="Sign up for newsletter..."
         aria-label="Sign up for newsletter"
       />
